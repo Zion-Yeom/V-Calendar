@@ -11,7 +11,7 @@ export default {
   name: "NavBar.vue",
   data(){
     return{
-      targetDate: new Date(),      //초기 값을 null or new Date() 에 따른 처리 방법
+      targetDate: new Date(),
     }
   },
   watch: {

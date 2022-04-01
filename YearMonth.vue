@@ -5,9 +5,6 @@
 </template>
 
 <script>
-//1.yearMonth html 그린다
-//2. 부모로 부터 targetDate를 받는다(props)
-//3. props 받은걸 1 에서 그린 변수에 바인딩을 시켜준다
 export default {
   name: "YearMonth.vue",
   components: {},
@@ -26,5 +23,8 @@ export default {
 </script>
 
 <style scoped>
-
+.year-month {
+  font-size: 35px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
 </style>
